@@ -1,0 +1,31 @@
+name: Build
+permissions: read-all
+
+on: [ push, workflow_dispatch ]
+
+jobs:
+  plugin-linter:
+    runs-on: ubuntu-latest
+    container:
+      image: buildkite/plugin-linter
+      volumes:
+        - ${{ github.workspace }}:/plugin
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Buildkite plugin linter
+        run: lint --id opzkit/pre-commit
+
+  plugin-tester:
+    runs-on: ubuntu-latest
+    container:
+      image: buildkite/plugin-tester
+      volumes:
+        - ${{ github.workspace }}:/plugin
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Buildkite plugin test
+        run: "bats tests"
