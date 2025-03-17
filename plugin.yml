@@ -1,0 +1,9 @@
+name: pre-commit-buildkite-plugin
+description: A buildkite plugin to run https://pre-commit.com
+author: https://github.com/opzkit
+requirements: [pre-commit]
+configuration:
+  properties:
+    all:
+      type: boolean
+  additionalProperties: false
