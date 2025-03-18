@@ -1,5 +1,3 @@
-#!/usr/bin/env bats
-
 # To debug stubs, uncomment these lines:
 # export CP_DUMMY_STUB_DEBUG=/dev/tty
 
@@ -10,7 +8,7 @@ setup() {
 @test 'Run for all files for non PR' {
   stub pre-commit \
     "run -a : exit 0"
-  run "${PWD}/hooks/post-checkout"
+  run "${PWD}/hooks/command"
 
   unstub pre-commit
   assert_success
@@ -20,7 +18,7 @@ setup() {
   export BUILDKITE_PLUGIN_PRE_COMMIT_ALL=true
   stub pre-commit \
     "run -a : exit 0"
-  run "${PWD}/hooks/post-checkout"
+  run "${PWD}/hooks/command"
 
   unstub pre-commit
   assert_success
@@ -35,7 +33,7 @@ setup() {
 
   stub pre-commit \
     "run --from-ref main --to-ref HEAD --show-diff-on-failure : exit 0"
-  run "${PWD}/hooks/post-checkout"
+  run "${PWD}/hooks/command"
 
   unstub pre-commit
   unstub git

@@ -12,7 +12,7 @@ This can be overridden with the `all` parameter, causing all files to be checked
 ## Usage
 
 Add the following to your `pipeline.yml`:
-
+<!--x-release-please-start-version-->
 ```yaml
 steps:
   - label: pre-commit
@@ -29,3 +29,4 @@ steps:
       - opzkit/pre-commit#v1.0.0:
         all: true
 ```
+<!-- x-release-please-end-->
