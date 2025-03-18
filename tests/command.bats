@@ -1,5 +1,3 @@
-#!/usr/bin/env bats
-
 # To debug stubs, uncomment these lines:
 # export CP_DUMMY_STUB_DEBUG=/dev/tty
 
