@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -euo pipefail
-if [[ "${BUILDKITE_PULL_REQUEST:-false}" == false || "${BUILDKITE_PLUGIN_PRE_COMMIT_ALL:-}" == true ]]; then
+if [[ ${BUILDKITE_PULL_REQUEST:-false} == false || ${BUILDKITE_PLUGIN_PRE_COMMIT_ALL:-} == true ]]; then
   pre-commit run -a
 else
   git fetch origin "${BUILDKITE_PULL_REQUEST_BASE_BRANCH}":"${BUILDKITE_PULL_REQUEST_BASE_BRANCH}"
