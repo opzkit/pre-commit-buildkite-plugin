@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.0.0...v1.1.0) (2025-04-10)
+
+
+### Features
+
+* enhance workflows and configuration for release process ([#9](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/9)) ([f665204](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/f66520481e5122e584bc13e230116c7d1c997760))
+
+
+### Miscellaneous Chores
+
+* **deps:** add renovate.json ([#6](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/6)) ([cbc44c0](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/cbc44c087525691edc727968fe39607d8e1de92d))
+* **deps:** pin dependencies ([#7](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/7)) ([13511bd](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/13511bd8604e425a0bf221b07f208471a7add788))
+* remove custom commitlint configuration ([#11](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/11)) ([765c4cc](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/765c4ccf73758c0dfa90f1459a20d24f8243998a))
+* update pre-commit flow ([#12](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/12)) ([157573c](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/157573c8e31d7918bb1f54262715d79f9a8744de))
+
 ## 1.0.0 (2025-03-18)
 
 
