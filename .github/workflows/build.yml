@@ -7,7 +7,7 @@ jobs:
   plugin-linter:
     runs-on: ubuntu-latest
     container:
-      image: buildkite/plugin-linter@sha256:6e13c283b5303c03501725b81b31007cf1493391c4623dcda8f6cd8a106f47b1
+      image: buildkite/plugin-linter@sha256:bb0608c446978ade1ffd8865475121a1df2468a2e4d30a951b5a1d0e42ffcf1c
       volumes:
         - ${{ github.workspace }}:/plugin
     steps:
