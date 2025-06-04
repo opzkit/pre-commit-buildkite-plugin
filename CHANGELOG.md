@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.6...v1.1.7) (2025-06-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update buildkite/plugin-linter docker digest to c487712 ([#38](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/38)) ([31795c1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/31795c1241eebef3d597b4b22125c6c9452b7997))
+
 ## [1.1.6](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.5...v1.1.6) (2025-06-03)
 
 
