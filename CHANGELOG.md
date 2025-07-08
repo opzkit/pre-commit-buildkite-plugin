@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.17](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.16...v1.1.17) (2025-07-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update buildkite/plugin-tester docker digest to 9b3cd1f ([#60](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/60)) ([29fa729](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/29fa7292c5b9a49267799082742cc84398cca2fd))
+
 ## [1.1.16](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.15...v1.1.16) (2025-07-05)
 
 
