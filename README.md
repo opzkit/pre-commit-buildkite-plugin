@@ -17,7 +17,7 @@ Add the following to your `pipeline.yml`:
 steps:
   - label: pre-commit
     plugins:
-      - opzkit/pre-commit#v1.1.20
+      - opzkit/pre-commit#v1.1.21
 ```
 
 Or to run on all files even on PRs:
@@ -26,7 +26,7 @@ Or to run on all files even on PRs:
 steps:
   - label: pre-commit
     plugins:
-      - opzkit/pre-commit#v1.1.20:
+      - opzkit/pre-commit#v1.1.21:
         all: true
 ```
 <!-- x-release-please-end-->
