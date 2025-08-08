@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.24](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.23...v1.1.24) (2025-08-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update buildkite/plugin-linter docker digest to 2b75767 ([#77](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/77)) ([95d1fb0](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/95d1fb09c718b2cf38ecb52d08cbdbb6a0c3e3f8))
+* **deps:** update buildkite/plugin-linter docker digest to 4bf5835 ([#81](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/81)) ([e27e446](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/e27e4467e24af2157c3081fdb2a08c7cf9d4464e))
+* **deps:** update buildkite/plugin-linter docker digest to a079b89 ([#79](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/79)) ([f0e9b7b](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/f0e9b7b9fbe1b38594f5e425e0b76ee0a1cd462c))
+* **deps:** update buildkite/plugin-linter docker digest to fcbea5f ([#80](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/80)) ([87bd2a9](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/87bd2a9ba9af83f10689369c3b0376ad1aafd8d9))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#82](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/82)) ([c4a6aa1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c4a6aa131e0abc46a0c2d0c270e0f014c70b3e41))
+
 ## [1.1.23](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.22...v1.1.23) (2025-07-25)
 
 
