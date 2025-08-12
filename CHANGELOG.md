@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.25](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.24...v1.1.25) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#86](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/86)) ([476204d](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/476204da8a1445d3559b3c891926754ef2c1ac93))
+* **deps:** update actions/checkout digest to 08eba0b ([#85](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/85)) ([35b3c79](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/35b3c79eb928c67481640ecf9b2a9d754ea2d385))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#83](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/83)) ([26840ea](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/26840ea6677e1f2d5b8260a5cef180407e1a0815))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#88](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/88)) ([ca1b18b](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/ca1b18b55bd370eb20e90e6ac95340a0a508f789))
+
 ## [1.1.24](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.23...v1.1.24) (2025-08-08)
 
 
