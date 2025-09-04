@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.30](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.29...v1.1.30) (2025-09-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v6 ([#103](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/103)) ([2337ef9](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2337ef992685415d2e9c9796d918ad1b5d3c3675))
+
 ## [1.1.29](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.28...v1.1.29) (2025-09-01)
 
 
