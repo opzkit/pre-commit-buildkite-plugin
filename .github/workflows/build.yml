@@ -20,7 +20,7 @@ jobs:
   plugin-tester:
     runs-on: ubuntu-latest
     container:
-      image: buildkite/plugin-tester@sha256:593fb0de4bee4f6d52ce6c6a2849720326bc8b284f7fc0700118932e3f4d10f9
+      image: buildkite/plugin-tester@sha256:64924c36eb3159e8c5463611d7ce69f4d490fa0198cc40d876e75357132973a4
       volumes:
         - ${{ github.workspace }}:/plugin
     steps:
