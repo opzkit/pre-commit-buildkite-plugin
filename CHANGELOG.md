@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.33](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.32...v1.1.33) (2025-10-04)
+
+
+### Miscellaneous Chores
+
+* add renovate pre-commit check ([#113](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/113)) ([e8699bc](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/e8699bcdf1f33b877f09ce4d37ef1e934be84a0f))
+* **deps:** update buildkite/plugin-linter docker digest to ff299d6 ([#115](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/115)) ([c445616](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c44561698f347e525468b0da29db5a779ef615f0))
+* **deps:** update buildkite/plugin-tester docker digest to 64924c3 ([#116](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/116)) ([b34a787](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/b34a7870aaf61aca9210cc2a0aaf1597527b4d64))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.23.0 ([#117](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/117)) ([2821ef4](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2821ef4872041a5abf646581c9374edf2f047407))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.135.3 ([#120](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/120)) ([9eee1b4](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9eee1b4cef8ec7c6e858dd80da4493f71c4e1bea))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.135.4 ([#121](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/121)) ([88f4c27](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/88f4c278c44ee0852ede076256e026ffce63ad2c))
+* **deps:** update terraform-linters/setup-tflint action to v6 ([#118](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/118)) ([daffcec](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/daffcec0bdfe4d4270e2844108cb6da950e71792))
+* **deps:** update terraform-linters/setup-tflint action to v6.1.0 ([#119](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/119)) ([5e25c94](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/5e25c94e148ae324199a9742af20f0a8a47f95ce))
+
 ## [1.1.32](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.31...v1.1.32) (2025-09-30)
 
 
