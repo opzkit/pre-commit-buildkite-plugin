@@ -1,5 +1,48 @@
 # Changelog
 
+## [1.1.34](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.33...v1.1.34) (2025-10-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update buildkite/plugin-linter docker digest to 2642bf4 ([#154](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/154)) ([e95e73e](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/e95e73ec5733c138c718f14ad7032449c8fb12e9))
+* **deps:** update buildkite/plugin-linter docker digest to 7990785 ([#139](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/139)) ([82da8a4](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/82da8a45554e01b883fdcc7d5085796f52a68831))
+* **deps:** update buildkite/plugin-linter docker digest to 8114a0b ([#155](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/155)) ([54e01ad](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/54e01ad1e7c064c2080e618dcd5be401ed48d2e7))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.101.1 ([#135](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/135)) ([765c6f0](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/765c6f0a9b42003521d55227fcbe021bef681348))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.102.0 ([#148](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/148)) ([df3bbbc](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/df3bbbc2a4b6169d590294959e3ddf8bd8163fdc))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.103.0 ([#150](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/150)) ([32124c6](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/32124c6f9caebc863c2bd25aa0c4c571fd5ab659))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.135.5 ([#122](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/122)) ([2f79b19](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2f79b19b915d711e0f2510303acb30cda0fc7ab5))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.137.0 ([#124](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/124)) ([5b6a3d6](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/5b6a3d667720ef79948f764e175f5a74ce583a12))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.137.2 ([#125](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/125)) ([794df3f](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/794df3fc97adb2f83644d0425e878192e9f7c0af))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.0 ([#127](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/127)) ([afb1885](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/afb18857dac2527c38d42553448a0634e06bda1c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.1 ([#128](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/128)) ([38a0f6c](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/38a0f6cbde1fb33021538cec6f6cc45f8c3f2f74))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.4 ([#129](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/129)) ([51a1457](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/51a1457b0e8e8f2fe9852040407eb7e907c998a2))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.139.0 ([#130](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/130)) ([272a229](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/272a229ab7d01e3e69b1e30e06f2e6e9e27beac8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.140.2 ([#131](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/131)) ([1b084f1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/1b084f1efea1636cd8baea55f12f98dffba75664))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.141.0 ([#132](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/132)) ([d940d21](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/d940d210839836acea59b13387404ba8c86641d8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.0 ([#133](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/133)) ([85512d4](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/85512d40318e05f2ec1fa2a48fb42b3d913b0f25))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.1 ([#134](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/134)) ([3974974](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/3974974fe88fb40867b4b6a53f7c4eaca88cf77b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.2 ([#136](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/136)) ([e91816e](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/e91816e3ba98a7ad163f42b6e1ad13b5c7193fbf))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.0 ([#137](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/137)) ([1e85906](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/1e85906a4fbc5425128ac100d2f96369c16d916f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.1 ([#138](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/138)) ([24598f4](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/24598f4f1fba134db4ed19a371938999ca4930a2))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.3 ([#140](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/140)) ([7dd31fe](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/7dd31fe3f2d7fd6d4577ab9ccfb3f18cb207911b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.4 ([#141](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/141)) ([8b99c34](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/8b99c34832783ed9a20827d34df1ad039c6e35ca))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.1 ([#142](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/142)) ([9370070](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9370070133105f6009c68abb4419f923a3be6d7c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.3 ([#143](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/143)) ([fda2daa](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/fda2daa0afae0f5089d3339f182d6c1c123f4009))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.146.0 ([#144](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/144)) ([66d4b00](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/66d4b004c75b66c39003fbbbb94dd487afe4b8ec))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.146.2 ([#145](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/145)) ([dbef612](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/dbef6120f1c7ceefe2080150fa0f59fa038d2195))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.148.1 ([#147](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/147)) ([25634ad](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/25634ad9b375b7c1c5783a9b16d691175d2130ac))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.148.6 ([#149](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/149)) ([f763134](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/f76313415719eea55ab2e72d9e014d3d3794c726))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.152.5 ([#151](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/151)) ([8e260d1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/8e260d1f6dc315a938d8a5890b4e3d7b22348333))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.152.9 ([#152](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/152)) ([9533c5a](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9533c5aa068345aee8fec3edb88ce99a797bfbe0))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.155.4 ([#153](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/153)) ([ca39e8d](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/ca39e8d074c94b29b6fc5cd0b453b6e02bf313a0))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.0 ([#126](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/126)) ([cad5368](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/cad53680b170b792eb64af590874f69d93cdfab3))
+
+
+### Continuous Integration
+
+* add daily schedule for pre-commit hook updates ([#146](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/146)) ([4162504](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/416250465b697531330d034eaf6b80a65eee32ba))
+
 ## [1.1.33](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.32...v1.1.33) (2025-10-04)
 
 
