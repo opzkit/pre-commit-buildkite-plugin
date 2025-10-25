@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.35](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.34...v1.1.35) (2025-10-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action digest to 16a9c90 ([#156](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/156)) ([44feff2](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/44feff2dc8556e05eaab49a940ac60d4904b9dab))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.159.2 ([#158](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/158)) ([70da763](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/70da7638243ef7d28ce62016a5567ee3a076e84a))
+
 ## [1.1.34](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.33...v1.1.34) (2025-10-23)
 
 
