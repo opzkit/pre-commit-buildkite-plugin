@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.1.38](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.37...v1.1.38) (2025-12-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.1 ([#193](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/193)) ([5bfca4f](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/5bfca4f702c583dcd5d8d61b7fe3dd43e0a92387))
+* **deps:** update actions/checkout digest to 34e1148 ([#195](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/195)) ([c9a2a94](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c9a2a9402a0885490ca31a276c70f4598c6783f6))
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#199](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/199)) ([0422e46](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/0422e462773270bc2030f267dc9076df364315c4))
+* **deps:** update actions/setup-python action to v6.1.0 ([#203](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/203)) ([cee3f24](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/cee3f2400b004f3c7a25d801c96baab7d17e18e0))
+* **deps:** update buildkite/plugin-linter docker digest to 2eada6b ([#190](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/190)) ([132504f](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/132504f4268efa71ae9662090740c377be7bbdad))
+* **deps:** update buildkite/plugin-linter docker digest to 496ffbc ([#194](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/194)) ([64186c8](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/64186c85366dcc947852f00e03e32d84dd094b83))
+* **deps:** update buildkite/plugin-linter docker digest to 68534ed ([#188](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/188)) ([c2cbb2e](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c2cbb2e5d06c4a13cc4e676fec01e1472c92e72b))
+* **deps:** update buildkite/plugin-linter docker digest to 6ff871d ([#206](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/206)) ([3bd2ccf](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/3bd2ccf19db6f63d3956a20186ac36b96ec143a4))
+* **deps:** update buildkite/plugin-linter docker digest to 736ad57 ([#201](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/201)) ([2d66bf6](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2d66bf67db7cbdbbcd3b7d4abcaa3dd10c8a1b73))
+* **deps:** update buildkite/plugin-linter docker digest to 76da56f ([#200](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/200)) ([408975c](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/408975c478270154ec9c43fc546c432afd4f09ea))
+* **deps:** update buildkite/plugin-linter docker digest to 9121e40 ([#196](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/196)) ([df34ab2](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/df34ab232c839482d8eac67e197b7a0df4729280))
+* **deps:** update buildkite/plugin-linter docker digest to 93bc9ff ([#205](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/205)) ([55276bb](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/55276bba2f7f7a1ae39cfcad029039576b4cd481))
+* **deps:** update buildkite/plugin-linter docker digest to a9a60f4 ([#209](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/209)) ([9f7a28d](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9f7a28d073711fbddf631bcfc82cd933bdbd915d))
+* **deps:** update buildkite/plugin-linter docker digest to cf7bd19 ([#186](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/186)) ([87a1ad2](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/87a1ad2d26f281979055e59330cd56328b1eb05a))
+* **deps:** update buildkite/plugin-linter docker digest to d3646fc ([#204](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/204)) ([67cc694](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/67cc694e8207678f718c04bb59fcfeacf97ffa9b))
+* **deps:** update buildkite/plugin-linter docker digest to d624c4d ([#183](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/183)) ([c75c752](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c75c7527c73446fdfd59f1eb788d239bb825348b))
+* **deps:** update buildkite/plugin-linter docker digest to e35a658 ([#180](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/180)) ([ebe80fc](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/ebe80fcd33a321ad260406f9301cc3c8700955cb))
+* **deps:** update buildkite/plugin-tester docker digest to a987f26 ([#207](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/207)) ([6c1c0af](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/6c1c0af1fe0bb062d634019f114ba32280ed42fc))
+* **deps:** update buildkite/plugin-tester docker digest to dfa473c ([#181](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/181)) ([008ccdd](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/008ccddf669eddd6834bb7276d8255b43a387a5e))
+* **deps:** update buildkite/plugin-tester docker digest to f53f5c3 ([#191](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/191)) ([3ed2b85](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/3ed2b85887c539402c06aca2204e2e57f6fbc9c1))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#197](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/197)) ([dcd50d9](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/dcd50d990cbaa9cfd16cb1393ca8c756866655de))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.10.5 ([#189](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/189)) ([0a369de](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/0a369dea1c5145f3c06f7834215485ff5ee7bb36))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.11.0 ([#192](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/192)) ([9c40ed5](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9c40ed53bfd4ed17909a8d0f0ec49222ff202bc3))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.19.3 ([#202](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/202)) ([f61ba49](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/f61ba49ad09fb6c4bba3ee76a2ce604c7029a6a2))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.2.0 ([#178](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/178)) ([99437ee](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/99437eedadaa0507dbaf789c240ce7a904262df0))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.27.0 ([#208](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/208)) ([c325f6a](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/c325f6a0f291faf8f5d0b8ba8427c4bb0ea6aa15))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.5.1 ([#182](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/182)) ([2b09c6b](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2b09c6bbba379f0252acf3775c2d23b7ed6d0e2f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.7.0 ([#187](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/187)) ([ea60920](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/ea609200c9c3617a0d441e6d006c1ec673c1a1ab))
+* enhance PR auto-merge workflow with token retrieval ([#185](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/185)) ([0c84e35](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/0c84e350f0ce555056cc8ac8cac127d316530c06))
+
+
+### Code Refactoring
+
+* simplify renovate configuration by removing rules ([#184](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/184)) ([9228042](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/9228042fdcfdf51a5a9502fd885dd3ae3d05c84b))
+
 ## [1.1.37](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.36...v1.1.37) (2025-11-09)
 
 
