@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.39](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.38...v1.1.39) (2025-12-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#213](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/213)) ([a76e830](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/a76e830d90ca7d8557d7654e23e28524b0b814d3))
+* **deps:** update buildkite/plugin-linter docker digest to 22c4996 ([#210](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/210)) ([98263a5](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/98263a5a44e9cc2a8176cd71d9ec41b00b25fe72))
+
 ## [1.1.38](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.37...v1.1.38) (2025-12-02)
 
 
