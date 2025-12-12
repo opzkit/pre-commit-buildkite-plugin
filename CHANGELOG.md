@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.39](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.38...v1.1.39) (2025-12-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#213](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/213)) ([a76e830](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/a76e830d90ca7d8557d7654e23e28524b0b814d3))
+* **deps:** update buildkite/plugin-linter docker digest to 22c4996 ([#210](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/210)) ([98263a5](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/98263a5a44e9cc2a8176cd71d9ec41b00b25fe72))
+* **deps:** update buildkite/plugin-linter docker digest to 6842b72 ([#215](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/215)) ([8961a48](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/8961a48af01d3963e1337dca59179d8848e3d608))
+* **deps:** update buildkite/plugin-linter docker digest to 85187d0 ([#212](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/212)) ([dd467c8](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/dd467c835325827a8d481fb19f2392436704bc3e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.39.2 ([#214](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/214)) ([ad89c7b](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/ad89c7be9bbc26e5670e40512c05aef2da6631e2))
+
 ## [1.1.38](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.37...v1.1.38) (2025-12-02)
 
 
