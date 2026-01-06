@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.40](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.39...v1.1.40) (2026-01-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update buildkite/plugin-linter docker digest to 00664be ([#222](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/222)) ([0de28c7](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/0de28c72298c614e3d29316840d80199cf4832d3))
+* **deps:** update buildkite/plugin-linter docker digest to 117104e ([#219](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/219)) ([576055a](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/576055abe85e3f73af0732ffd1e4cffb50214010))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.1 ([#224](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/224)) ([2ac27f9](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/2ac27f900867b07f82706734a9f16facf90cc7ad))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.105.0 ([#225](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/225)) ([56d772c](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/56d772cf2ec5b9d9b430df061b0980a091467dea))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.64.1 ([#221](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/221)) ([6a5d1e0](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/6a5d1e00f991684bee170b1d8fc04c4e7c523891))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.66.11 ([#223](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/223)) ([056a3a2](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/056a3a266db8038677eb55da4620bf729f460b24))
+
 ## [1.1.39](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.38...v1.1.39) (2025-12-18)
 
 
