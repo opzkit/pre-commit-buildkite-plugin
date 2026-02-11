@@ -6,26 +6,42 @@ on: [ push, workflow_dispatch ]
 jobs:
   plugin-linter:
     runs-on: ubuntu-latest
-    container:
-      image: buildkite/plugin-linter@sha256:634acdf12a4562ba04a7654c423fbab0f153ea54d1f0cdde855d62b68b26c0ba
-      volumes:
-        - ${{ github.workspace }}:/plugin
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Install plugin-linter
+        run: |
+          git clone --depth 1 https://github.com/buildkite-plugins/buildkite-plugin-linter.git /tmp/plugin-linter
+          cd /tmp/plugin-linter && npm install
       - name: Buildkite plugin linter
-        run: lint --id opzkit/pre-commit
+        run: /tmp/plugin-linter/bin/lint --id opzkit/pre-commit --path .
 
   plugin-tester:
     runs-on: ubuntu-latest
-    container:
-      image: buildkite/plugin-tester@sha256:a987f2629928e019291bbe76385ba86207caec918a7e24504b120f5da057c210
-      volumes:
-        - ${{ github.workspace }}:/plugin
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
+      - name: Install bats and helpers
+        env:
+          BATS_LIB_DIR: ${{ runner.temp }}/bats-libs
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bats
+          mkdir -p "$BATS_LIB_DIR"
+          git clone --depth 1 https://github.com/bats-core/bats-support.git "$BATS_LIB_DIR/bats-support"
+          git clone --depth 1 https://github.com/bats-core/bats-assert.git "$BATS_LIB_DIR/bats-assert"
+          git clone --depth 1 https://github.com/buildkite-plugins/bats-mock.git "$BATS_LIB_DIR/bats-mock"
+          cat > "$BATS_LIB_DIR/load.bash" << EOF
+          source "$BATS_LIB_DIR/bats-support/load.bash"
+          source "$BATS_LIB_DIR/bats-assert/load.bash"
+          source "$BATS_LIB_DIR/bats-mock/stub.bash"
+          EOF
       - name: Buildkite plugin test
-        run: "bats tests"
+        env:
+          BATS_PLUGIN_PATH: ${{ runner.temp }}/bats-libs
+        run: bats tests
