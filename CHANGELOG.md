@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.41](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.40...v1.1.41) (2026-02-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.15.1 ([#245](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/245)) ([60b45b1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/60b45b14e6594bf32a19cc2ded7a71a6cbad1420))
+
 ## [1.1.40](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.39...v1.1.40) (2026-02-11)
 
 
