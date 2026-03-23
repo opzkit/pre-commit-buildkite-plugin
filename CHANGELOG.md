@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.41](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.40...v1.1.41) (2026-03-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#254](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/254)) ([5b0cc86](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/5b0cc86f8216ecb1d0edbc3c92187b111447ff7d))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#253](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/253)) ([47c693e](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/47c693e342150d5d1a874f2f7f635ba72251500c))
+* **deps:** update actions/setup-node digest to 53b8394 ([#251](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/251)) ([f8667b0](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/f8667b074a526dabf5b928bd3e96b57f7b85f36d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.15.1 ([#245](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/245)) ([60b45b1](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/60b45b14e6594bf32a19cc2ded7a71a6cbad1420))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#247](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/247)) ([21f7bae](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/21f7baeced843c12120cd960cc89ff81c177b176))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#250](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/250)) ([7bd5c78](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/7bd5c789ff4f6682a692a647dbfb5de6cd506672))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#255](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/255)) ([8833d16](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/8833d163e491dc838c743f6a3d016ff4a2c8c9da))
+* remove unnecessary terraform tooling ([#252](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/252)) ([b000d85](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/b000d85634368363616aa2e3f62e44198d7edd5a))
+
+
+### Continuous Integration
+
+* remove unnecessary terraform and tflint setup from pre-commit workflow ([#248](https://github.com/opzkit/pre-commit-buildkite-plugin/issues/248)) ([735ae4f](https://github.com/opzkit/pre-commit-buildkite-plugin/commit/735ae4f0817f7b7bedfffb06916e2eb040cabd50))
+
 ## [1.1.40](https://github.com/opzkit/pre-commit-buildkite-plugin/compare/v1.1.39...v1.1.40) (2026-02-11)
 
 
